@@ -47,3 +47,6 @@ class LogisticRegression():
     def predict(self, X):
         y_pred = np.round(self.sigmoid(X.dot(self.param))).astype(int)
         return y_pred
+    def predicty(self,x):
+        y_pred1 = np.round(self.sigmoid)
+        return y_pred1 
