@@ -50,3 +50,6 @@ class LogisticRegression():
     def predicty(self,x):
         y_pred1 = np.round(self.sigmoid)
         return y_pred1 
+    def filter(sel,x):
+        filter(x)
+        return x
